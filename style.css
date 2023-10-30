@@ -1,0 +1,323 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 15vh;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 8%;
+    padding-right: 6%;
+
+}
+.logo{
+    cursor: pointer;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: light;
+}
+nav ul li a:hover{
+    background-color: #efeeed;
+    border-radius: 5px;
+    padding: 10px 10px;
+    transition: .3s;
+}
+.in{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+.in:hover{
+    color:  #efeeed;
+    transition: .2s;
+}
+.up{
+    text-decoration: none;
+    background: green;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.s1{
+    width: 100%;
+    height: 50vh;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: center;
+
+}
+.img{
+    width: 500px;
+    height: 300px;
+}
+.txt{
+    width: 500px;
+    padding: 50px;
+
+}
+.txt p{
+    font-size: 35px;
+    font-weight: lighter;
+    color: #595959;
+    line-height: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.txt h2{
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+    padding-bottom:20px;
+
+
+}
+.txt h4{
+    width: 500px;
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-weight: lighter;
+}
+.section{
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    margin-top: 60px;
+}
+.courses{
+    width: 100%;
+    height: 100vh;
+    background-color: #c9daf4;
+}
+.courses h2{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.courses p{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    
+
+}
+.cards{
+    width: 350px;
+    height:350px;
+    background: white;
+    border-radius: 15px;
+    margin: 15px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.cards img{
+    width: 350px;
+    height: 200px;
+    border-radius: 15px 15px 0px 0px;
+}
+.cards h4{
+    font-size: 20px;
+    margin: 40px 20px 0px 20px;
+
+
+}
+.card1:hover img{
+    transition: .4s ease;
+
+}
+.ctg{
+    width: 100%;
+    height: 350vh;
+    background-color: #ededed;
+    padding: 50px;
+    padding-bottom: 0px;
+
+    
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.text h2{
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+.text a{
+    background-color: #5c37d3;
+    width: 220px;
+    height: 60px;
+    padding: 20px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 3px;
+}
+.counts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.count{
+    width: 350px;
+    height: 420px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px 10px;
+}
+.count img{
+    width: 350px;
+    height: 230px;
+    border-radius: 10px 10px 0px 0px;
+}
+.count h2{
+    padding: 30px 30px 20px 30px;
+    font-size: bold;
+}
+.count p{
+    padding: 0px 30px 30px 30px;
+    font-weight: lighter;
+    font-size: large;
+}
+.baro{
+    margin: 150px ;
+}
+.baro h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.para{
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    padding-bottom: 70px;
+}
+.tiro{
+    display: flex;
+    margin: 0px 100px;
+
+}
+.tiro h4{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.tiro p{
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.sec{
+    background-color: #c9daf4;
+    width: 100%;
+    height: 50vh;
+    
+}
+.sec h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+}
+.hur{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.download{
+    display: flex;
+    justify-content: center;
+}
+.download a{
+    text-decoration: none;
+    background-color: #100f0f;
+    color: white;
+    border: 2px solid #595959;
+    margin: 30px;
+    padding: 20px 25px;
+    border-radius: 10px;
+    font-family: sans-serif;
+
+}
+.download  a span{
+    font-size: 25px;
+}
+.casri{
+    background-color: #202126;
+    width: 100%;
+    height: 60vh;
+}
+.casri h2{
+    color: green;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-top: 100px ;
+}
+.casri p{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 20px;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+footer{
+    background-color: #2a2827;
+    width: 100%;
+    height: 30vh;
+    padding: 40px;
+    line-height: 1.6rem;
+    color: #595959;
+    display: flex;
+
+}
+.footerLinks a{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 10px;
+    color: #595959;
+}
+.footerLinks :hover{
+    color: green;
+}
+
+.socialMediaIcons i{
+    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.socialMediaIcons :hover{
+    color: green;
+    cursor: pointer;
+}
